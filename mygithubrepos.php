@@ -17,7 +17,7 @@ require_once (plugin_dir_path(__FILE__)."/includes/github-class.php");
 
 
 function ghr_register_widget(){
-    register_widget('WP_github_class');
+    register_widget('WP_github_class'); 
 }
 
 add_action('widgets_init', "ghr_register_widget");

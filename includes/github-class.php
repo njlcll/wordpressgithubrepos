@@ -129,7 +129,7 @@ class WP_github_class extends WP_Widget
         <li>
             <div class='repo-title'>" . esc_html($repo->name) . "</div>
             <div class='repo-description'>" . esc_html($repo->description) . "</div>
-            <div class='repo-link'><a href='esc_html($repo->html_url)' target='_blank'>web</div>
+            <div class='repo-link'><a href='". esc_html($repo->html_url)."' target='_blank'>web</div>
         </li> ";
             }
            
